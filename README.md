@@ -20,3 +20,21 @@ public class SquareBound {
 		}
 	}
 }
+
+#Printing Triangle Alphabet Pattern
+
+
+
+package pattern;
+
+public class PatternChar {
+
+	public static void main(String[] args) 
+	{
+		for(char c=65;c<91;c++) {
+			for(char d=65;d<=c;d++) {
+				System.out.print(d + " ");
+			}System.out.println();
+		}
+	}
+}
